@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Complete Travel Website Html Css</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="backgroud">
+  <!--header--->
+  <header>
+    <a href="/index.html" class="logo">Travel</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/packages.html">Package</a></li>
+      <li><a href="/destination.html">Destination</a></li>
+      <li><a href="/contact.html">Contact Us</a></li>
+    </ul>
+  </header>
+
+  <section class="booking">
+    <h1>Booking</h1>
+    <main>
+      
+        <form class="form">
+          
+            <label for="name">Name</label>
+            <div>
+              <input type="text" id="name" name="name" placeholder="Name" required />
+            </div>
+            <label for="email">Email</label>
+            <div>
+              <input type="email" id="email" name="email" placeholder="Email" required />
+            </div>
+            <label for="tel">Phone Number</label>
+
+            <div>
+              <input type="tel" id="tel" name="tel" placeholder="+31636363634 
+                        " required />
+            </div>
+            <label for="date">Booking Date</label>
+
+            <div><input type="date" id="date" name="date" required /></div>
+            <label for="date">Destination</label>
+
+            <div>
+              <select id="destination" name="distination" title="distination" required>
+                <option value="Dubia">Dubia</option>
+                <option value="Landon">Landon</option>
+                <option value="Alabama">Alabama</option>
+                <option value="Alaska">Alaska</option>
+                <option value="Arizona">Arizona</option>
+                <option value="Arkansas">Arkansas</option>
+                <option value="California">California</option>
+                <option value="Colorado">Colorado</option>
+                <option value="Connecticut">Connecticut</option>
+                <option value="DC">DC</option>
+                <option value="Delaware">Delaware</option>
+                <option value="District of Columbia">
+                  District of Columbia
+                </option>
+                <option value="Florida">Florida</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Guam">Guam</option>
+                <option value="Hawaii">Hawaii</option>
+                <option value="Idaho">Idaho</option>
+                <option value="Illinois">Illinois</option>
+                <option value="Indiana">Indiana</option>
+                <option value="Iowa">Iowa</option>
+                <option value="Kansas">Kansas</option>
+                <option value="Kentucky">Kentucky</option>
+                <option value="Louisiana">Louisiana</option>
+                <option value="Maine">Maine</option>
+                <option value="Maryland">Maryland</option>
+                <option value="Massachusetts">Massachusetts</option>
+                <option value="Michigan">Michigan</option>
+                <option value="Minnesota">Minnesota</option>
+                <option value="Mississippi">Mississippi</option>
+                <option value="Missouri">Missouri</option>
+                <option value="Montana">Montana</option>
+                <option value="Nebraska">Nebraska</option>
+                <option value="Nevada">Nevada</option>
+                <option value="New Hampshire">New Hampshire</option>
+                <option value="New Jersey">New Jersey</option>
+                <option value="New Mexico">New Mexico</option>
+                <option value="New York">New York</option>
+                <option value="North Carolina">North Carolina</option>
+                <option value="North Dakota">North Dakota</option>
+                <option value="Northern Marianas Islands">
+                  Northern Marianas Islands
+                </option>
+                <option value="Ohio">Ohio</option>
+                <option value="Oklahoma">Oklahoma</option>
+                <option value="Oregon">Oregon</option>
+                <option value="Pennsylvania">Pennsylvania</option>
+                <option value="Puerto Rico">Puerto Rico</option>
+                <option value="Rhode Island">Rhode Island</option>
+                <option value="South Carolina">South Carolina</option>
+                <option value="South Dakota">South Dakota</option>
+                <option value="Tennessee">Tennessee</option>
+                <option value="Texas">Texas</option>
+                <option value="Utah">Utah</option>
+                <option value="Vermont">Vermont</option>
+                <option value="Virginia">Virginia</option>
+                <option value="Virgin Islands">Virgin Islands</option>
+                <option value="Washington">Washington</option>
+                <option value="West Virginia">West Virginia</option>
+                <option value="Wisconsin">Wisconsin</option>
+                <option value="Wyoming">Wyoming</option>
+              </select>
+            </div>
+
+            <label for="days">Number of Days</label>
+            <div>
+              <input type="number" id="days" name="days" placeholder="Number of Days" required />
+            </div>
+            <div>
+              <input type="submit" value="Submit" id="submit" />
+            </div>
+        </form>
+    </main>
+  </section>
+  <div class="end-text">
+    <p>Copyright ©2022 All rights reserved</p>
+  </div>
+
+  <script src="js/auth.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
